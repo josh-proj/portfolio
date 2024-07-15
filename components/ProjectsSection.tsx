@@ -6,6 +6,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import { HiArrowDown } from "react-icons/hi"
 
 
+
 const projects = [
   {
     name: "Driver Booking System",
@@ -85,6 +86,7 @@ const ProjectsSection = () => {
           <HiArrowDown size={35} className="animate-bounce" />
         
       </div>
+      
     </section>
   )
 }

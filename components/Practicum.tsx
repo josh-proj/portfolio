@@ -56,12 +56,12 @@ const Practicum = () => {
               on how it works.
               <br />
               <br />
-              <p className="font-medium">Software used to develop: Wordpress</p>
+              <span className="font-medium">Software used to develop: Wordpress</span>
             </p>
           </div>
         </div>
         <br />
-        <hr className="w-50 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
         <br />
         <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
           <div className="md:mt-2 md:w-1/2">
@@ -103,14 +103,14 @@ const Practicum = () => {
               using Github.
               <br />
               <br />
-              <p className="font-medium">
+              <span className="font-medium">
                 Software used to develop: Visual Studio Code and Github
-              </p>
+              </span>
             </p>
           </div>
         </div>
         <br />
-        <hr className="w-50 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
         <br />
 
         <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
@@ -149,9 +149,9 @@ const Practicum = () => {
               Afterwards, we will be submitting the changes using Github.
               <br />
               <br />
-              <p className="font-medium">
+              <span className="font-medium">
                 Software used to develop: Visual Studio Code and Github
-              </p>
+              </span>
             </p>
           </div>
         </div>
@@ -172,7 +172,7 @@ const Practicum = () => {
                 alt=""
                 width={200}
                 height={150}
-                className="rounded-xl shadow-2xl"
+                className="rounded-xl shadow-2xl mx-auto"
               />
             </div>
             <div className="md:mt-2 md:w-3/5">
@@ -185,9 +185,9 @@ const Practicum = () => {
                 that may occur, including grammar and typographical error.
                 <br />
                 <br />
-                <p className="font-medium">
-                  Software used to develop: Mobile app and Clickup
-                </p>
+                <span className="font-medium">
+                  Software used to develop: Clickup and Mobile app. 
+                </span>
               </p>
             </div>
           </div>
@@ -195,26 +195,26 @@ const Practicum = () => {
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
               <Image
-                src="/app.jpg"
+                src="/matchmowebsite.png"
                 alt=""
-                width={200}
-                height={150}
-                className="rounded-xl shadow-2xl"
+                width={400}
+                height={400}
+                className="rounded-xl shadow-2xl "
               />
             </div>
             <div className="md:mt-2 md:w-3/5">
               <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
-                Matchmo Mobile App
+                Matchmo Website
               </h1>
               <p className="mt-4 mb-6 md:text-base">
-                Developers add new features or make changes to the mobile app.
-                As part of the QA process, we test the app and find any bugs
-                that may occur, including grammar and typographical error.
+                Every week, we check the website to make sure there are no bugs or error. We have a check list 
+                to ensure everything is covered.
+
                 <br />
                 <br />
-                <p className="font-medium">
-                  Software used to develop: Mobile app and Clickup
-                </p>
+                <span className="font-medium">
+                  Software used to develop: Clickup, Google PageSpeed Insights, and Website.
+                </span>
               </p>
             </div>
           </div>
