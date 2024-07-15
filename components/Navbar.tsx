@@ -26,9 +26,10 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "projects",
   },
   {
-    label: "Projects",
+    label: "Practicum",
     page: "projects",
   },
+  
 ]
 
 export default function Navbar() {
@@ -36,6 +37,32 @@ export default function Navbar() {
   const currentTheme = theme === "system" ? systemTheme : theme
   const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
+  const handleDownload = () => {
+    // Path to the PDF file
+    const pdfPath = '../public/CV_JoshSG.pdf';
+
+    // Fetch the PDF file
+    fetch(pdfPath)
+        .then(response => response.blob())
+        .then(blob => {
+            // Create a temporary URL for the PDF blob
+            const url = window.URL.createObjectURL(blob);
+
+            // Create a temporary <a> element to trigger the download
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'CV_JoshSG.pdf'; // Set the desired file name
+            document.body.appendChild(a);
+
+            // Simulate a click on the <a> element to trigger the download
+            a.click();
+
+            // Clean up
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        })
+        .catch(error => console.error('Error fetching PDF:', error));
+};
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-zinc-950 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
@@ -63,6 +90,7 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
+            
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
@@ -83,6 +111,12 @@ export default function Navbar() {
                   </Link>
                 )
               })}
+              
+              {currentTheme === "dark" ? (
+                <button className="bg-slate-100 p-2 rounded-xl text-black" onClick={handleDownload}>Download CV</button>
+              ) : (
+                <button className="bg-black p-2 rounded-xl text-white" onClick={handleDownload}>Download CV</button>
+              )}
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
@@ -98,7 +132,7 @@ export default function Navbar() {
                   <RiMoonFill size={25} />
                 </button>
               )}
-            </div>
+            </div>            
           </div>
         </div>
       </div>
