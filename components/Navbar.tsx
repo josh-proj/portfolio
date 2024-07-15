@@ -25,10 +25,7 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Practicum",
     page: "projects",
   },
-  {
-    label: "Practicum",
-    page: "projects",
-  },
+
   
 ]
 
@@ -39,7 +36,7 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false)
   const handleDownload = () => {
     // Path to the PDF file
-    const pdfPath = '../public/CV_JoshSG.pdf';
+    const pdfPath = '/JoshSG-CV.pdf';
 
     // Fetch the PDF file
     fetch(pdfPath)
@@ -51,7 +48,7 @@ export default function Navbar() {
             // Create a temporary <a> element to trigger the download
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'CV_JoshSG.pdf'; // Set the desired file name
+            a.download = 'JoshSG-CV.pdf'; // Set the desired file name
             document.body.appendChild(a);
 
             // Simulate a click on the <a> element to trigger the download
@@ -113,9 +110,9 @@ export default function Navbar() {
               })}
               
               {currentTheme === "dark" ? (
-                <button className="bg-slate-100 p-2 rounded-xl text-black" onClick={handleDownload}>Download CV</button>
+                <button className="p-2 rounded-xl text-white" onClick={handleDownload}>Download CV</button>
               ) : (
-                <button className="bg-black p-2 rounded-xl text-white" onClick={handleDownload}>Download CV</button>
+                <button className="p-2 rounded-xl text-black" onClick={handleDownload}>Download CV</button>
               )}
               {currentTheme === "dark" ? (
                 <button
