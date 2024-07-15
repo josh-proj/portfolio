@@ -145,7 +145,7 @@ const Practicum = () => {
             </h1>
             <p className="mt-4 mb-6 md:text-base">
               We were assigned a task to put additional blogs into the website.
-              We used Visual Studio Code wtih programming language Next.js.
+              We used Visual Studio Code with programming language Next.js.
               Afterwards, we will be submitting the changes using Github.
               <br />
               <br />
@@ -186,7 +186,7 @@ const Practicum = () => {
                 <br />
                 <br />
                 <span className="font-medium">
-                  Software used to develop: Clickup and Mobile app. 
+                  Software used: Clickup and Mobile app. 
                 </span>
               </p>
             </div>
@@ -213,14 +213,96 @@ const Practicum = () => {
                 <br />
                 <br />
                 <span className="font-medium">
-                  Software used to develop: Clickup, Google PageSpeed Insights, and Website.
+                  Software used: Clickup, Google PageSpeed Insights, and Website.
                 </span>
               </p>
             </div>
           </div>
+          <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
+            <div className="md:mt-2 md:w-1/2 item">
+              <Image
+                src="/bankportal2.png"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-xl shadow-2xl "
+              />
+            </div>
+            <div className="md:mt-2 md:w-3/5">
+              <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
+                Bank Portal
+              </h1>
+              <p className="mt-4 mb-6 md:text-base">
+                Software Engineering Team developed a software for the company which will be utilized 
+                by their employees and partners. We were tasked to check the bank portal 
+                make sure it is functioning properly. We were advised to look out for bugs and errors 
+                including grammars and typographical errors. 
+
+                <br />
+                <br />
+                <span className="font-medium">
+                  Software used: Clickup, and Bank Portal.
+                </span>
+              </p>
+            </div>
+                        
+          </div>    
+          <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
+            <div className="md:mt-2 md:w-1/2 item">
+              <Image
+                src="/crm.png"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-xl shadow-2xl "
+              />
+            </div>
+            <div className="md:mt-2 md:w-3/5">
+              <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
+              Customer Relationship Management (CRM)
+              </h1>
+              <p className="mt-4 mb-6 md:text-base">
+                CRM was developed for employees. We were told to do QA for the software. Ensure that 
+                uploading document is working as intended. Check any possible bug or erros that may occur.
+
+                <br />
+                <br />
+                <span className="font-medium">
+                  Software used: Clickup, and CRM.
+                </span>
+              </p>
+            </div>                        
+          </div>  
+          <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
+            <div className="md:mt-2 md:w-1/2 item">
+              <Image
+                src="/publicpage.png"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-xl shadow-2xl "
+              />
+            </div>
+            <div className="md:mt-2 md:w-3/5">
+              <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
+              Public Page for Clients
+              </h1>
+              <p className="mt-4 mb-6 md:text-base">
+                This page was developed for clients to use and upload their documents. We performed QA for this page and made sure that 
+                clients can successfully upload their documents. We also checked for bugs and errors.
+
+                <br />
+                <br />
+                <span className="font-medium">
+                  Software used: Clickup, and CRM.
+                </span>
+              </p>
+            </div>                        
+          </div>       
         </div>
 
-        <hr className="w-50 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
+        <hr className="w-50 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>      
+        
       </div>
     </section>
   );
