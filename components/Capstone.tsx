@@ -8,7 +8,8 @@ const Capstone = () => {
           <h1 className="text-center font-bold text-5xl">
             Capstone
           </h1>
-          <br /><br /><br />
+          <hr className="w-6 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
+          <br /><br />
           
           <h2 className="text-center font-bold text-3xl">
           iLAKO: <br/>Market Merchant Information System With GPS Mapping
@@ -35,9 +36,29 @@ const Capstone = () => {
                 <br />
                 <br />
                 <span className="font-medium text-lg">
-                  Software used to develop: OutSystems.
+                  Software used to develop: OutSystems
                 </span>                
               </p>
+              <br/>
+
+              <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
+            <div className="md:mt-2 md:w-1/2 item">
+            <Image
+                src="/treasuryui.png"
+                alt=""
+                width={400}
+                height={400}
+                className="rounded-xl shadow-2xl mx-auto"
+              />
+            </div>
+            <div className="md:mt-2 md:w-3/5">
+              <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-2xl">
+              Treasury Office UI 
+              </h1>
+              
+            </div>     
+            </div>
+            <br/>
             <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
             <Image
@@ -55,6 +76,7 @@ const Capstone = () => {
               
             </div>     
             </div>
+            <br/>
             <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
             <Image
@@ -72,6 +94,7 @@ const Capstone = () => {
               
             </div>     
             </div>
+            <br/>
             <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
             <Image
@@ -89,6 +112,7 @@ const Capstone = () => {
               
             </div>     
             </div>
+            <br/>
             <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
             <Image
@@ -105,26 +129,10 @@ const Capstone = () => {
               </h1>
               
             </div>     
-            </div>
-
-            <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
-            <div className="md:mt-2 md:w-1/2 item">
-            <Image
-                src="/treasuryui.png"
-                alt=""
-                width={400}
-                height={400}
-                className="rounded-xl shadow-2xl mx-auto"
-              />
-            </div>
-            <div className="md:mt-2 md:w-3/5">
-              <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-2xl">
-              Treasury Office UI 
-              </h1>
-              
-            </div>     
-            </div>
+            </div><br/><br/><br/><br/>
+            <hr className="w-50 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
           </div>
+          
 </section>
   );
 };

@@ -29,6 +29,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Capstone",
     page: "capstone",
   },
+  {
+    label: "Academics",
+    page: "academics",
+  },
 
   
 ]

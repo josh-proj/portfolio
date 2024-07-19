@@ -1,6 +1,18 @@
 import React from "react"
 import Image from "next/image"
 
+const skills = [
+
+  { skill: "Python" },
+  { skill: "C#" },
+  { skill: "React" },
+  { skill: "Next.js" }, 
+  { skill: "GitHub" },
+  { skill: "Tailwind CSS" },
+  { skill: "Networking" },
+  { skill: "Git" },
+ 
+]
 
 
 const AboutSection = () => {
@@ -35,12 +47,32 @@ const AboutSection = () => {
             <p className="text-lg">
             I believe that you should never stop growing and {"that's"} what I strive to do. 
             I have a desire to always push the limits of what is possible. 
-            I am excited to see where my career takes me and am always open to new opportunities.
+            I am excited to see where my career takes me and {"I'm"} always open to new opportunities.
             </p>
+            <br/><br/><br/><br/>
           </div>
           
+          
         </div>
+        <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+        <div className="text-center md:w-1/2 md:text-left">
+            <h1 className="text-2xl text-center font-bold mb-6">Skills</h1>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {skills.map((item, idx) => {
+                return (
+                  <p
+                    key={idx}
+                    className="bg-gray-200 px-4 py-2 mr-4 mt-5 text-black rounded font-semibold"
+                  >
+                    {item.skill}
+                  </p>
+                )
+              })}
+            </div>
+            </div>
+            </div>
       </div>
+      
     </section>
   )
 }

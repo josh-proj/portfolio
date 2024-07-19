@@ -18,7 +18,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hello, {"I'm"} Josh!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">{"I'm Josh!"}</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             <br />A graduating IT student
             based in Laguna, Philippines. Hard working team-player with proven ability to commit to projects from start to finish.

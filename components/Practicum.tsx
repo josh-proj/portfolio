@@ -7,11 +7,13 @@ const Practicum = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           More about Practicum
-          <hr className="w-6 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
+          
         </h1>
         <br />
         <br />
         <h2 className="text-center font-bold text-3xl">Software Development</h2>
+        <hr className="w-6 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
+        <br/>
         <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
           <div className="md:mt-2 md:w-1/2">
             <Image
@@ -53,10 +55,10 @@ const Practicum = () => {
               <br />
               <br />
               We presented the booking system to the employees and gave a demo
-              on how it works.
+              on how it works. We also gave an onboarding to the employee who will be managing the system.
               <br />
               <br />
-              <span className="font-medium">Software used to develop: Wordpress</span>
+              <span className="font-medium">Software used to develop: Wordpress and Gmail API</span>
             </p>
           </div>
         </div>
@@ -163,6 +165,7 @@ const Practicum = () => {
           <h2 className="text-center font-bold text-3xl">
             Quality Assurance (QA)
           </h2>
+          <hr className="w-6 h-1 mx-auto my-4 bg-slate-800 border-0 rounded"></hr>
           <br />
 
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
@@ -180,7 +183,8 @@ const Practicum = () => {
                 Matchmo Mobile App
               </h1>
               <p className="mt-4 mb-6 md:text-base">
-                Developers add new features or make changes to the mobile app.
+                Developers created a mobile app and {"they're"} continuously improving it. 
+                They add new features or make changes to the mobile app.
                 As part of the QA process, we test the app and find any bugs
                 that may occur, including grammar and typographical error.
                 <br />
@@ -191,6 +195,7 @@ const Practicum = () => {
               </p>
             </div>
           </div>
+          <br/>
 
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
@@ -218,6 +223,7 @@ const Practicum = () => {
               </p>
             </div>
           </div>
+          <br/>
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
               <Image
@@ -247,6 +253,7 @@ const Practicum = () => {
             </div>
                         
           </div>    
+          <br/>
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
               <Image
@@ -262,7 +269,7 @@ const Practicum = () => {
               Customer Relationship Management (CRM)
               </h1>
               <p className="mt-4 mb-6 md:text-base">
-                CRM was developed for employees. We were told to do QA for the software. Ensure that 
+                CRM was developed for employees. We were instructed to do QA for the software. Ensure that 
                 uploading document is working as intended. Check any possible bug or erros that may occur.
 
                 <br />
@@ -273,6 +280,7 @@ const Practicum = () => {
               </p>
             </div>                        
           </div>  
+          <br/>
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
             <div className="md:mt-2 md:w-1/2 item">
               <Image

@@ -24,7 +24,7 @@ const projects = [
   {
     name: "Quality Assurance (QA)",
     description:
-      "We thoroughly check the company's website, mobile app, CRM, and bank portal.",
+      "We thoroughly check the company's website, mobile app, CRM, and bank portal and look for bugs or errors.",
     image: "/qawebsiteapp.png",    
     link: "https://matchmo.ph/",
   },
