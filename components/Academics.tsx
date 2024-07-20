@@ -143,6 +143,30 @@ const Academics = () => {
           <div className="md:mt-2 md:w-1/2">            
             <br />
             <Image
+              src="/mangomadness.png"
+              alt=""
+              width={400}
+              height={400}
+              className="rounded-xl shadow-2xl"
+            />
+          </div>
+          
+          <div className="md:mt-2 md:w-3/5">
+            <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
+            CS103P - DESIGN AND DEVELOPMENT OF A WEB-BASED SALES MONITORING SYSTEM FOR MANGO MADNESS PHILIPPINES
+            </h1>
+            <p className="mt-4 mb-6 md:text-base">
+            This project focuses on enhancing the manual processes and improving 
+            the handling of store data of Mango Madness Philippines by providing a web-based sales monitoring system. 
+
+            </p>
+          </div>
+          </div>
+
+          <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
+          <div className="md:mt-2 md:w-1/2">            
+            <br />
+            <Image
               src="/4pics1.jpg"
               alt=""
               width={300}
