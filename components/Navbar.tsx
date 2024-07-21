@@ -44,7 +44,7 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false)
   const handleDownload = () => {
     // Path to the PDF file
-    const pdfPath = '/JoshSG-CV.pdf';
+    const pdfPath = '/updated_cv-joshsg.pdf';
 
     // Fetch the PDF file
     fetch(pdfPath)

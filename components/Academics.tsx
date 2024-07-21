@@ -61,7 +61,7 @@ const Academics = () => {
           Machine Problems from Academics
           
         </h1>
-        <br />
+        <br /><br />
 
         <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
           <div className="md:mt-2 md:w-1/2">            
@@ -86,33 +86,7 @@ const Academics = () => {
             </p>
           </div>                   
         </div>
-        <br/>
-
-        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
-          <div className="md:mt-2 md:w-1/2">            
-            <br />
-            <Image
-              src="/cinebook5.jpg"
-              alt=""
-              width={200}
-              height={150}
-              className="rounded-xl shadow-2xl mx-auto"
-            />
-          </div>
-          
-          <div className="md:mt-2 md:w-3/5">
-            <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
-            IT140P - Cinebook
-            </h1>
-            <p className="mt-4 mb-6 md:text-base">
-            A mobile app paired with Arduino Uno and RFID for booking a slot in cinema.  
-            Once customer books a slot, a cinema staff will hand over an RFID configured 
-            for the movie the customer booked. RFID will be used to open the cinema gate 
-            in order to enter and watch the movie.
-            </p>
-          </div>
-          </div>
-          <br/>
+        <br/>        
 
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
           <div className="md:mt-2 md:w-1/2">            
@@ -162,28 +136,35 @@ const Academics = () => {
             </p>
           </div>
           </div>
+          <br/>
 
           <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-1 md:flex-row md:space-x-4 md:text-left">
           <div className="md:mt-2 md:w-1/2">            
             <br />
             <Image
-              src="/4pics1.jpg"
+              src="/cinebook5.jpg"
               alt=""
-              width={300}
-              height={300}
+              width={200}
+              height={150}
               className="rounded-xl shadow-2xl mx-auto"
             />
           </div>
           
           <div className="md:mt-2 md:w-3/5">
             <h1 className="text-3xl font-bold mt-6 md:mt-0 md:text-3xl">
-            IT101-2L -  4 Pics 1 Word
+            IT140P - Cinebook
             </h1>
             <p className="mt-4 mb-6 md:text-base">
-            A game wherein you have to guess the word based from the 4 pictures being displayed.
+            A mobile app paired with Arduino Uno and RFID for booking a slot in cinema.  
+            Once customer books a slot, a cinema staff will hand over an RFID configured 
+            for the movie the customer booked. RFID will be used to open the cinema gate 
+            in order to enter and watch the movie.
             </p>
           </div>
           </div>
+          <br/>
+
+          
           <br/><br/>
         
         
